@@ -1,4 +1,4 @@
-# mod_arthur OAuth.io Corona SDK module
+# mod_arthur
 
 __A Corona SDK plugin for interfacing with the oauth.io service.__
 
