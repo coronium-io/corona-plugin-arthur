@@ -1,5 +1,3 @@
-# Arthur OAuth Corona SDK Plugin
+# Arthur OAuth.io Corona SDK Module
 
-[![Documentation Status](https://readthedocs.org/projects/arthur-oauth-plugin/badge/?version=latest)](http://arthur-oauth-plugin.readthedocs.org/?badge=latest)
-
-*...coming soon.*
+This is the documentation for the module. You can find the actual module source at [https://github.com/develephant/mod_arthur](https://github.com/develephant/mod_arthur)

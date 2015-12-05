@@ -1,11 +1,13 @@
 site_name: mod_arthur - oauth.io
 site_url: http://develephant.com
+repo_url: https://github.com/coronium-io/coronasdk-arthur-docs
 site_author: Chris Byerley
 copyright: C. Byerley | 2015 &copy; develephant | coronium.io
 markdown_extensions:
+  - admonition
   - fenced_code
   - codehilite:
-      noclasses: False
+      noclasses: True
       guess_lang: True
       pygments_style: colorful
   - toc:
