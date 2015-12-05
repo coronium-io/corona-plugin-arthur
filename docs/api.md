@@ -12,7 +12,7 @@ __Returns:__ The main Arthur module.
 
 ## .init
 
-Initialize the __mod_arthur__ module with your [oauth.io](https://oauth.io) credentials for the app.
+Initialize the __mod_arthur__ module with your [OAuth.io](https://oauth.io) credentials for the app.
 
 
 Parameter|Description|Type|Requried
@@ -33,7 +33,7 @@ Arthur.init( '<public_app_key' )
 
 ## .api
 
-Create a new API Object from one of your app providers configured on [oauth.io](https://oauth.io).
+Create a new API Object from one of your app providers configured on [OAuth.io](https://oauth.io).
 
 Parameter|Description|Type|Requried
 ---------|:----------|----|--------
@@ -75,7 +75,7 @@ Arthur.trace( content_table )
 
 # API Object
 
-The __API Object__ is a provider instance that you can make calls against. You must first create this instance using `Arthur.api` (See above).
+The __API Object__ is a OAuth.io provider instance that you can make calls against. You must first create this instance using `Arthur.api` (See above).
 
 ## :setPrefix
 

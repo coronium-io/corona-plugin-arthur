@@ -1,8 +1,8 @@
 # mod_arthur
 
-__A Corona SDK plugin for interfacing with the oauth.io service.__
+__A Corona SDK plugin for interfacing with the OAuth.io service.__
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="develephant" data-size="large" data-show-count="true" data-hashtags="oauth,api,coronasdk,Lualang">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="develephant" data-size="large" data-hashtags="oauth,api,coronasdk,appdev,Lualang">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 ---
@@ -11,8 +11,8 @@ __A Corona SDK plugin for interfacing with the oauth.io service.__
 
 To use __mod_arthur__ you'll need to take care of a few things first:
 
-1. Create an account at [oauth.io](https://oauth.io) (it's free).
-1. Create a new application at oauth.io and select API providers.
+1. Create an account at [OAuth.io](https://oauth.io) (it's free).
+1. Create a new application at OAuth.io and select API providers.
 1. Get a hold of your public key for that application.
 
 ## Download
@@ -33,7 +33,7 @@ This will return a _master_ Arthur object instance.
 
 ## Initialization
 
-Once you have the oauth.io public application key, use it to initialize the module:
+Once you have the OAuth.io public application key, use it to initialize the module:
 
 ```lua
 Arthur.init( '<public_application_key' )
