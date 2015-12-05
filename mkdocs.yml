@@ -5,7 +5,6 @@ site_author: Chris Byerley
 copyright: C. Byerley | 2015 &copy; develephant | coronium.io
 markdown_extensions:
   - admonition
-  - fenced_code
   - codehilite:
       noclasses: True
       guess_lang: True
