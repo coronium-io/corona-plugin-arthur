@@ -121,6 +121,71 @@ tumblr_api:get('/blog/good.tumblr.com/info', nil, callback)
 
 ## :post
 
+Make a call to the instanced provider using the "POST" method.
+
+Parameter|Description|Type|Requried
+---------|:----------|----|--------
+endpoint|The provider endpoint you want to access.|String|Yes
+parameters|Additional parameters for the call. Or `nil` otherwise.|Table|No
+post_body|The post body data to send with the post.|String|Yes
+callback|The callback when the response is returned.|Function|Yes
+
+__Returns:__
+
+The network request id. Can be ignored unless specifically needed.
+
+__Example:__
+
+```lua
+local function callback( content )
+  Arthur.trace( content ) --debug return object
+end
+tumblr_api:post('/v2/blog/good.tumblr.com/info', nil, "some post body", callback)
+```
+
 ## :put
 
+Make a call to the instanced provider using the "PUT" method.
+
+Parameter|Description|Type|Requried
+---------|:----------|----|--------
+endpoint|The provider endpoint you want to access.|String|Yes
+parameters|Additional parameters for the call. Or `nil` otherwise.|Table|No
+post_body|The post body data to send with the put.|String|Yes
+callback|The callback when the response is returned.|Function|Yes
+
+__Returns:__
+
+The network request id. Can be ignored unless specifically needed.
+
+__Example:__
+
+```lua
+local function callback( content )
+  Arthur.trace( content ) --debug return object
+end
+tumblr_api:put('/v2/blog/good.tumblr.com/info', nil, "some post body", callback)
+```
+
 ## :delete
+
+Make a call to the instanced provider using the "DELETE" method.
+
+Parameter|Description|Type|Requried
+---------|:----------|----|--------
+endpoint|The provider endpoint you want to access.|String|Yes
+parameters|Additional parameters for the call. Or `nil` otherwise.|Table|No
+callback|The callback when the response is returned.|Function|Yes
+
+__Returns:__
+
+The network request id. Can be ignored unless specifically needed.
+
+__Example:__
+
+```lua
+local function callback( content )
+  Arthur.trace( content ) --debug return object
+end
+tumblr_api:delete('/v2/blog/good.tumblr.com/info', nil, callback)
+```
