@@ -1,6 +1,16 @@
-site_name: Arthur - OAuth.io Plugin
+site_name: Arthur OAuth.io Plugin
+site_url: http://develephant.com
+site_author: Chris Byerley
 copyright: C. Byerley | 2015 &copy; develephant | coronium.io
+markdown_extensions:
+  - fenced_code
+  - codehilite:
+      noclasses: True
+      guess_lang: True
+      pygments_style: borland
+  - toc:
+      permalink: True
 pages:
-- Usage: usage.md
-- API: api.md
-- About: about.md
+  - Usage: index.md
+  - API: api.md
+  - About: about.md
