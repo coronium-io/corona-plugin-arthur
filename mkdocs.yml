@@ -12,5 +12,5 @@ markdown_extensions:
       permalink: True
 pages:
   - Usage: index.md
-  - API: api.md
+  - The API: api.md
   - About: about.md
