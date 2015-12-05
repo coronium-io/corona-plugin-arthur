@@ -15,8 +15,8 @@ To use __mod_arthur__ you'll need to take care of a few things first:
 1. Create a new application at OAuth.io and select API providers.
 1. Get a hold of your public key for that application.
 
-!!! info "Important"
-   When asked to white-list connecting urls, you must enter "localhost"
+!!! warning "Important"
+  When you whitelist domains, you must enter __localhost__ as the only value.
 
 ## Download
 
