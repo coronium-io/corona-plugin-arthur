@@ -16,13 +16,14 @@ To use __mod_arthur__ you'll need to take care of a few things first:
 1. Get a hold of your public key for that application.
 
 !!! warning "Important"
-    When you whitelist domains, you must enter __localhost__ as the only value.
+    When you whitelist domains on OAuth.io, you must enter __localhost__ as the only value.
 
 ## Download
 
 Get the __mod_arthur__ module directory and add it to your project.
 
-__[Click Here to Download Module](https://github.com/develephant/mod_arthur/archive/master.zip)__
+!!! info ""
+    __[Click Here to Download Module](https://github.com/develephant/mod_arthur/archive/master.zip)__
 
 ## Add the Module
 
