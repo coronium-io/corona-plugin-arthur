@@ -15,4 +15,5 @@ markdown_extensions:
 pages:
   - Usage: index.md
   - The API: api.md
+  - Demo: demo.md
   - About: about.md
