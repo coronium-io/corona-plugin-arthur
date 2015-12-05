@@ -5,9 +5,9 @@ copyright: C. Byerley | 2015 &copy; develephant | coronium.io
 markdown_extensions:
   - fenced_code
   - codehilite:
-      noclasses: True
-      guess_lang: True
-      pygments_style: borland
+      noclasses: False
+      guess_lang: False
+      pygments_style: pastie
   - toc:
       permalink: True
 pages:

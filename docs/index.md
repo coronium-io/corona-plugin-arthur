@@ -7,4 +7,36 @@ __A Corona SDK plugin for interfacing with the oauth.io service.__
 
 ---
 
-How to get set up with oauth.io and mod_arthur
+## Setting Up
+
+To use __mod_arthur__ you'll need to take care of a few things first:
+
+1. Create an account at [oauth.io](https://oauth.io) (it's free).
+1. Create a new application at oauth.io and select API providers.
+1. Get a hold of your public key for that application.
+
+## Download
+
+Get the __mod_arthur__ module directory and add it to your project.
+
+__[Download mod_arthur here.](/#)__
+
+## Add the Module
+
+Once you have the __mod_arthur__ module directory in your project, you'll need to `require` it:
+
+```lua
+local Arthur = require("arthur.mod_arthur")
+```
+
+This will return a _master_ Arthur object instance.
+
+## Initialization
+
+Once you have the oauth.io public application key, use it to initialize the module:
+
+```lua
+Arthur.init( '<public_application_key' )
+```
+
+__Continue on to the [API section](/api) to learn more about how to use mod_arthur.__
