@@ -6,8 +6,8 @@ markdown_extensions:
   - fenced_code
   - codehilite:
       noclasses: False
-      guess_lang: False
-      pygments_style: autumn
+      guess_lang: True
+      pygments_style: colorful
   - toc:
       permalink: True
 pages:

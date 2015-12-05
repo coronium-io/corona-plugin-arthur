@@ -29,6 +29,8 @@ __Example:__
 Arthur.init( '<public_app_key' )
 ```
 
+---
+
 ## .api
 
 Create a new API Object from one of your app providers configured on [oauth.io](https://oauth.io).
@@ -49,6 +51,8 @@ __Example:__
 tumblr_api = Arthur.api( 'tumblr', nil, onTumblrReady )
 ```
 
+---
+
 ## .trace
 
 Outputs a human readable table tree in the console. Good for debugging content.
@@ -66,6 +70,8 @@ __Example:__
 ```lua
 Arthur.trace( content_table )
 ```
+
+---
 
 # API Object
 
@@ -90,6 +96,8 @@ Consider `tumblr_api` an API Object instance.
 ```lua
 tumblr_api:setPrefix( 'v2' )
 ```
+
+---
 
 ## :get
 
@@ -119,6 +127,8 @@ If you use `setPrefix('v2')` above, all endpoints would no longer need the versi
 tumblr_api:get('/blog/good.tumblr.com/info', nil, callback)
 ```
 
+---
+
 ## :post
 
 Make a call to the instanced provider using the "POST" method.
@@ -143,6 +153,8 @@ end
 tumblr_api:post('/v2/blog/good.tumblr.com/info', nil, "some post body", callback)
 ```
 
+---
+
 ## :put
 
 Make a call to the instanced provider using the "PUT" method.
@@ -166,6 +178,8 @@ local function callback( content )
 end
 tumblr_api:put('/v2/blog/good.tumblr.com/info', nil, "some post body", callback)
 ```
+
+---
 
 ## :delete
 
