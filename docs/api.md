@@ -1,6 +1,6 @@
 # mod_arthur
 
-After you've set up your [oauth.io](https://oauth.io) account and first application, in Corona SDK, add the __mod_arthur__ module. You can [download the module here](#).
+After you've set up your [OAuth.io](https://oauth.io) account and first oauth application, in Corona SDK, add the __mod_arthur__ module. You can [download the module here](https://github.com/develephant/mod_arthur/archive/master.zip).
 
 ```lua
 local Arthur = require("arthur.mod_arthur")
