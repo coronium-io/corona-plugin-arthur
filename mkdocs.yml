@@ -1,4 +1,14 @@
-site_name: Arthur OAuth Plugin
+site_name: Arthur - OAuth.io Plugin
 copyright: C. Byerley | 2015 &copy; develephant | coronium.io
 pages:
 - Start Here...: index.md
+- Setting Up: setup.md
+- Usage: usage.md
+- Arthur API:
+  - get: api_get.md
+  - post: api_post.md
+  - put: api_put.md
+  - delete: api_delete.md
+  - me: api_me.md
+- Utilities: utilities.md
+- About: about.md
