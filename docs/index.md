@@ -19,7 +19,7 @@ To use __mod_arthur__ you'll need to take care of a few things first:
 
 Get the __mod_arthur__ module directory and add it to your project.
 
-__[Download mod_arthur here.](/#)__
+__[Click Here to Download Module](https://github.com/develephant/mod_arthur/archive/master.zip)__
 
 ## Add the Module
 
